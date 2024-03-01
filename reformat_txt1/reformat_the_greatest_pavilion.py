@@ -110,7 +110,6 @@ original_text = """
     ，与福聚德只是隔街相望。  
 """
 
-# 调用函数修正文本
 corrected_text = clean_and_merge_lines(original_text)
 formatted_text = '\n'.join(corrected_text)
 print(formatted_text)
